@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Product Filter</title>
+  </head>
+
+  <body>
+    <div class="wholeDiv">
+      <div class="mainDiv">
+        <h1 class="heading">SELECT YOUR CHOICE</h1>
+        <div class="section">
+          <a class="no-underline category active" href="">
+            <div class="emoji">
+              <img src="./images/fluent-emoji-high-contrast_boy.png" alt="" />
+              <h2>Men</h2>
+            </div>
+          </a>
+          <a class="no-underline category" href="">
+            <div class="emoji">
+              <img src="./images/fluent-emoji-high-contrast_girl.png" alt="" />
+              <h2>Women</h2>
+            </div>
+          <a class="no-underline category" href="">
+            <div class="emoji">
+              <img src="./images/Vector.png" alt="" />
+              <h2>Kids</h2>
+            </div>
+        </div>
+      </div>
+      <!-- to render the data for the men women and kid -->
+      <div id="men" class="productMen"></div>
+      <div id="women" class="productWoMen"></div>
+      <div id="kid" class="productkid"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
